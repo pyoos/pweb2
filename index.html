@@ -3,282 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Your Name - Software Engineer</title>
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <h1>Your Name</h1>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="navigation">
+                <div class="logo">
+                    <a href="/">YN</a>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="about">
             <div class="hero-content">
-                <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
-                <p class="tagline">Your Title or Tagline Goes Here</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn primary-btn">View My Work</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Welcome to my personal website! I am a [your profession/role] with expertise in [your skills/specialties]. With [X years] of experience, I've worked on [types of projects or achievements].</p>
-                    <p>I'm passionate about [what you're passionate about], and I strive to [your goals or mission].</p>
-                    <div class="personal-details">
-                        <div class="detail-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>Education: Your Degree, University</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-briefcase"></i>
-                            <span>Current Role: Your Current Position</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Location: Your City, Country</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <!-- Replace with your actual image path -->
-                    <img src="images/profile.jpg" alt="Your Name" class="profile-image">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project1.jpg" alt="Project 1">
-                    </div>
-                    <div class="project-details">
-                        <h3>Project Title 1</h3>
-                        <p>Brief description of the project, what technologies you used, and what problem it solves.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project2.jpg" alt="Project 2">
-                    </div>
-                    <div class="project-details">
-                        <h3>Project Title 2</h3>
-                        <p>Brief description of the project, what technologies you used, and what problem it solves.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project3.jpg" alt="Project 3">
-                    </div>
-                    <div class="project-details">
-                        <h3>Project Title 3</h3>
-                        <p>Brief description of the project, what technologies you used, and what problem it solves.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-container">
-                <!-- Skill Category 1 -->
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <ul class="skills-list">
-                        <li class="skill-item">
-                            <div class="skill-name">JavaScript</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">Python</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 85%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">HTML/CSS</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 95%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Skill Category 2 -->
-                <div class="skill-category">
-                    <h3>Frameworks & Libraries</h3>
-                    <ul class="skills-list">
-                        <li class="skill-item">
-                            <div class="skill-name">React</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 80%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">Node.js</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 75%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">Django</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 70%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Skill Category 3 -->
-                <div class="skill-category">
-                    <h3>Tools & Technologies</h3>
-                    <ul class="skills-list">
-                        <li class="skill-item">
-                            <div class="skill-name">Git & GitHub</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">Docker</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 65%"></div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <div class="skill-name">AWS</div>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 60%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>your.email@example.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+1 (123) 456-7890</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>City, Country</span>
-                        </div>
-                    </div>
+                <div class="hero-text">
+                    <h1>Your Name</h1>
+                    <h2>Software Engineer & Creator</h2>
+                    <p>I build accessible, efficient and user-focused web applications. Currently working on <a href="#" class="link-highlight">Project Name</a>, previously at <a href="#" class="link-highlight">Previous Company</a>.</p>
+                    
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h3>Send Me a Message</h3>
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn primary-btn">Send Message</button>
-                    </form>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Your Name" />
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-header">
+                <h3>Projects</h3>
+                <p>Some of the projects I've worked on</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>A brief description of the project, what technology was used, and what problem it solves. Keep it concise but informative.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Source
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>A brief description of the project, what technology was used, and what problem it solves. Keep it concise but informative.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>TailwindCSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Source
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>A brief description of the project, what technology was used, and what problem it solves. Keep it concise but informative.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>GraphQL</span>
+                            <span>Prisma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Source
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>A brief description of the project, what technology was used, and what problem it solves. Keep it concise but informative.</p>
+                        <div class="project-tech">
+                            <span>Svelte</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Source
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    View more on GitHub <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="section-header">
+                <h3>Experience</h3>
+                <p>My professional journey</p>
+            </div>
+            
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-year">
+                        <span>2022 - Present</span>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Senior Software Engineer</h4>
+                        <h5>Company Name</h5>
+                        <p>Brief description of your role, responsibilities, and key achievements. Technologies and tools you worked with, and any significant metrics or improvements you brought.</p>
+                        <div class="experience-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>GraphQL</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-year">
+                        <span>2020 - 2022</span>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Software Engineer</h4>
+                        <h5>Company Name</h5>
+                        <p>Brief description of your role, responsibilities, and key achievements. Technologies and tools you worked with, and any significant metrics or improvements you brought.</p>
+                        <div class="experience-tech">
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-year">
+                        <span>2018 - 2020</span>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Frontend Developer</h4>
+                        <h5>Company Name</h5>
+                        <p>Brief description of your role, responsibilities, and key achievements. Technologies and tools you worked with, and any significant metrics or improvements you brought.</p>
+                        <div class="experience-tech">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>SASS</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    View Full Resume <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog" id="blog">
+            <div class="section-header">
+                <h3>Blog</h3>
+                <p>My thoughts and ideas</p>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-date">April 10, 2025</div>
+                    <h4>Blog Post Title That Is Interesting and Technical</h4>
+                    <p>Brief summary of what the blog post is about, giving readers a taste of what they can expect if they click to read more.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-date">March 25, 2025</div>
+                    <h4>Another Engaging Blog Post Title About Tech</h4>
+                    <p>Brief summary of what the blog post is about, giving readers a taste of what they can expect if they click to read more.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-date">February 15, 2025</div>
+                    <h4>A Third Interesting Blog Post Title</h4>
+                    <p>Brief summary of what the blog post is about, giving readers a taste of what they can expect if they click to read more.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="/blog" rel="noopener noreferrer">
+                    View All Posts <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-header">
+                <h3>Contact</h3>
+                <p>Get in touch with me</p>
+            </div>
+            
+            <div class="contact-content">
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision. Feel free to reach out to me through any of the platforms below.</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>your.email@example.com</span>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <span>@yourusername</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>linkedin.com/in/yourusername</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
             <div class="footer-content">
-                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
+                <p>© 2025 Your Name. All rights reserved.</p>
+                <p>Built with HTML, CSS, and JavaScript</p>
             </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
+        </footer>
+    </div>
+    
     <script src="js/main.js"></script>
 </body>
 </html>
